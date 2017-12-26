@@ -40,13 +40,7 @@ public class Main {
         company = new Company(gyoumuNum, syuyakudo);
 
         List<String[]> first = new ArrayList<>();
-//        for(int i=0;i<agentGroupNum;i++){
-//            for(int j=0;j<agentNum;j++){
-//                groupIdsAndAgnetIds[i*agentGroupNum+j]=agentGroups[i].getId()+"-"+agentGroups[i].getAgents().get(j).getId();
-//            }
-//        }
-//
-//        first.add(groupIdsAndAgnetIds);
+
 
         first.add(Arrays.stream(agentGroups)
                 .flatMap(agentGroup -> agentGroup.getAgents().stream().map(agent -> agent.getMyagentGroup().getId() + "--" + agent.getId()))

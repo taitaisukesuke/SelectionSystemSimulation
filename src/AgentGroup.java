@@ -53,6 +53,8 @@ public class AgentGroup {
         }
     }
 
+
+    //グループ内のエージェントを評価する
     public void evaluatingAllAgents(Company company) {
         for (Agent agent : agents) {
             company.evaluate(agent);

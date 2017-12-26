@@ -5,6 +5,7 @@ public class Belief {
 
     private int value;
 
+    //分散するように定義
     public Belief(int random) {
         int random2 = new Random().nextInt(100);
 

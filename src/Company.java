@@ -17,14 +17,16 @@ public class Company {
         }
     }
 
+    //集約度を評価に組み込む
     public int evaluate(Agent agent) {
         int score = 0;
 
         for (int i = 0; i < gyomuNum / syuyakydo; i++) {
             boolean isEvaluated = true;
             for (int j = 0; j < syuyakydo; j++) {
+                int number = i * syuyakydo + j;
 
-                if (!weights[i * syuyakydo + j].evaluate(agent.getBeliefs().get(i * syuyakydo + j))) {
+                if (!weights[number].evaluate(agent.getBeliefs().get(number))) {
                     isEvaluated = false;
                     break;
                 }
