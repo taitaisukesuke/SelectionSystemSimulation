@@ -69,6 +69,10 @@ public class Agent {
         System.out.println(sum + "個アップデート！");
     }
 
+    public void resetConnection() {
+        this.connectedAgents.clear();
+    }
+
 
     public ArrayList<Agent> getConnectedAgents() {
         return connectedAgents;

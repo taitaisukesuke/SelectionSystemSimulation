@@ -11,14 +11,23 @@ import jp.sf.orangesignal.csv.handlers.StringArrayListHandler;
 public class Main {
     private AgentGroup[] agentGroups;
     private final Company company;
+    private String outputpath = "output/";
 
     public static void main(String[] args) {
         Main main = new Main(Setting.AGENT_GROUP_NUM, Setting.AGENT_NUM_IN_ONE_GROUP, Setting.BETA, Setting.GYOUMU_NUM, Setting.PERCENTAGE_OF_LEANING, Setting.SYUYAKUDO);
         main.createNetwork();
 
+        int times = 0;
         for (int i = 0; i < Setting.UPDATE_NUM; i++) {
             main.evaluating();
             main.learning();
+            times++;
+
+            if (Setting.IS_SELECTION_SYSTEM) {
+                if (times == Setting.CHANGE_CONNECTION_TIME) {
+                    main.reconnect();
+                }
+            }
         }
 
 
@@ -27,7 +36,6 @@ public class Main {
     private Main(int agentGroupNum, int agentNum, float beta, int gyoumuNum, int percentage, int syuyakudo) {
         Date d = new Date();
         SimpleDateFormat d1 = new SimpleDateFormat("MM_dd_HH_mm_ss");
-        String outputpath = "output/";
         outputpath += d1.format(d);
 
 
@@ -88,10 +96,47 @@ public class Main {
     }
 
     private void evaluating() {
-        for (AgentGroup agentGroup : agentGroups) {
-            agentGroup.evaluatingAllAgents(company);
+        List<String[]> result = new ArrayList<>();
+        result.add(Arrays.stream(agentGroups)
+                .flatMap(agentGroup -> agentGroup.getAgents().stream().map(agent -> String.valueOf(company.evaluate(agent))))
+                .toArray(String[]::new));
 
+        try {
+            Csv.save(result, new FileOutputStream(outputpath + ".csv", true), new CsvConfig(), new StringArrayListHandler());
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+    }
+
+    private void reconnect() {
+        ArrayList<Agent> allAgents = new ArrayList<>();
+
+        for (AgentGroup agentGroup : agentGroups) {
+            for (Agent agent : agentGroup.getAgents()) {
+                allAgents.add(agent);
+            }
+
+            Collections.sort(allAgents, new AgentComparator());
+        }
+
+        ArrayList<Agent> selectedAgents = new ArrayList<>();
+        ArrayList<Agent> agentsPickedUpWithBeta = new ArrayList<>();
+        int times = 0;
+
+        for (int i = 0; i < Setting.AGENT_GROUP_NUM * Setting.AGENT_NUM_IN_ONE_GROUP; i++) {
+            selectedAgents.add(allAgents.get(i));
+            times++;
+
+            if (times == Setting.AGENT_NUM_IN_ONE_GROUP) {
+                agentsPickedUpWithBeta.addAll(Reconnector.reconnct(selectedAgents, Setting.BETA));
+                selectedAgents.clear();
+                times = 0;
+            }
+        }
+
+        connectPickedUpAgents(agentsPickedUpWithBeta);
+        System.out.println("メンバーチェンジ！");
     }
 }
 
