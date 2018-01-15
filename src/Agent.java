@@ -6,7 +6,7 @@ public class Agent {
     private AgentGroup myagentGroup;
     private final int id;
     private ArrayList<Belief> beliefs = new ArrayList<>();
-    private int score = 0;
+    private int score;
     private int percentage;
 
 
@@ -14,6 +14,7 @@ public class Agent {
         this.id = agentId;
         this.myagentGroup = myagentGroup;
         this.percentage = percentage;
+        this.score=0;
 
         int random = new Random().nextInt(100);
 
@@ -49,7 +50,12 @@ public class Agent {
                 champion = connectedAgents.get(i);
             }
         }
-        return champion;
+
+        if (champion.getScore() >= this.getScore()) {
+            return champion;
+        } else {
+            return this;
+        }
     }
 
     public void learning() {

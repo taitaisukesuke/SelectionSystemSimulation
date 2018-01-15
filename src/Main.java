@@ -23,15 +23,13 @@ public class Main {
             main.learning();
             times++;
 
-            if (Setting.IS_SELECTION_SYSTEM) {
-                if (times == Setting.CHANGE_CONNECTION_TIME) {
-                    main.reconnect();
-                }
+
+            if (times == Setting.CHANGE_CONNECTION_TIME) {
+                main.reconnect();
             }
         }
-
-
     }
+
 
     private Main(int agentGroupNum, int agentNum, float beta, int gyoumuNum, int percentage, int syuyakudo) {
         Date d = new Date();
@@ -123,18 +121,28 @@ public class Main {
         ArrayList<Agent> selectedAgents = new ArrayList<>();
         ArrayList<Agent> agentsPickedUpWithBeta = new ArrayList<>();
         int times = 0;
+        if (Setting.IS_SELECTION_SYSTEM) {
+            for (int i = 0; i < Setting.AGENT_GROUP_NUM * Setting.AGENT_NUM_IN_ONE_GROUP; i++) {
+                selectedAgents.add(allAgents.get(i));
+                times++;
 
-        for (int i = 0; i < Setting.AGENT_GROUP_NUM * Setting.AGENT_NUM_IN_ONE_GROUP; i++) {
-            selectedAgents.add(allAgents.get(i));
-            times++;
-
-            if (times == Setting.AGENT_NUM_IN_ONE_GROUP) {
+                if (times == Setting.AGENT_NUM_IN_ONE_GROUP) {
+                    agentsPickedUpWithBeta.addAll(Reconnector.reconnct(selectedAgents, Setting.BETA));
+                    selectedAgents.clear();
+                    times = 0;
+                }
+            }
+        } else {
+            for (int i = 0; i < Setting.AGENT_GROUP_NUM; i++) {
+                for (int j = 0; j < Setting.AGENT_GROUP_NUM * Setting.AGENT_NUM_IN_ONE_GROUP; j++) {
+                    if (j % Setting.AGENT_GROUP_NUM == i) {
+                        selectedAgents.add(allAgents.get(j));
+                    }
+                }
                 agentsPickedUpWithBeta.addAll(Reconnector.reconnct(selectedAgents, Setting.BETA));
                 selectedAgents.clear();
-                times = 0;
             }
         }
-
         connectPickedUpAgents(agentsPickedUpWithBeta);
         System.out.println("メンバーチェンジ！");
     }

@@ -1,15 +1,15 @@
 public class Company {
     private final Weight[] weights;
-    private final int syuyakydo;
+    private final int syuyakudo;
     private final int gyomuNum;
 
-    public Company(int gyoumuNum, int syuyakydo) {
+    public Company(int gyoumuNum, int syuyakudo) {
 
-        if (gyoumuNum % syuyakydo != 0) {
+        if (gyoumuNum % syuyakudo != 0) {
             throw new IllegalArgumentException("syuuyakudoはgyoymuNumの約数である必要があります。");
         }
         this.gyomuNum = gyoumuNum;
-        this.syuyakydo = syuyakydo;
+        this.syuyakudo = syuyakudo;
         weights = new Weight[gyoumuNum];
 
         for (int i = 0; i < gyoumuNum; i++) {
@@ -21,10 +21,10 @@ public class Company {
     public int evaluate(Agent agent) {
         int score = 0;
 
-        for (int i = 0; i < gyomuNum / syuyakydo; i++) {
+        for (int i = 0; i < gyomuNum / syuyakudo; i++) {
             boolean isEvaluated = true;
-            for (int j = 0; j < syuyakydo; j++) {
-                int number = i * syuyakydo + j;
+            for (int j = 0; j < syuyakudo; j++) {
+                int number = i * syuyakudo + j;
 
                 if (!weights[number].evaluate(agent.getBeliefs().get(number))) {
                     isEvaluated = false;
