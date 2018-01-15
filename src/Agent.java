@@ -72,7 +72,7 @@ public class Agent {
             }
         }
 
-        System.out.println(sum + "個アップデート！");
+//        System.out.println(sum + "個アップデート！");
     }
 
     public void resetConnection() {

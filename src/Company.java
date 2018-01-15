@@ -36,7 +36,7 @@ public class Company {
             }
         }
         agent.setScore(score);
-        System.out.println(agent.getMyagentGroup().getId() + "-" + agent.getId() + "のスコアは" + score + "です。");
+//        System.out.println(agent.getMyagentGroup().getId() + "-" + agent.getId() + "のスコアは" + score + "です。");
         return score;
     }
 }

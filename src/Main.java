@@ -1,3 +1,4 @@
+import java.awt.font.TextHitInfo;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -13,28 +14,35 @@ public class Main {
     private final Company company;
     private String outputpath = "output/";
 
+
     public static void main(String[] args) {
-        Main main = new Main(Setting.AGENT_GROUP_NUM, Setting.AGENT_NUM_IN_ONE_GROUP, Setting.BETA, Setting.GYOUMU_NUM, Setting.PERCENTAGE_OF_LEANING, Setting.SYUYAKUDO);
-        main.createNetwork();
 
-        int times = 0;
-        for (int i = 0; i < Setting.UPDATE_NUM; i++) {
-            main.evaluating();
-            main.learning();
-            times++;
+        for (int x = 0; x < Setting.TIMES_OF_SIMULATING; x++) {
+
+            Main main = new Main(Setting.AGENT_GROUP_NUM, Setting.AGENT_NUM_IN_ONE_GROUP, Setting.BETA, Setting.GYOUMU_NUM, Setting.PERCENTAGE_OF_LEANING, Setting.SYUYAKUDO);
+            main.createNetwork();
+
+            int times = 0;
+            for (int i = 0; i < Setting.UPDATE_NUM; i++) {
+                main.evaluating();
+                main.learning();
+                times++;
 
 
-            if (times == Setting.CHANGE_CONNECTION_TIME) {
-                main.reconnect();
+                if (times == Setting.CHANGE_CONNECTION_TIME) {
+                    main.reconnect();
+                    times=0;
+                }
             }
+            System.out.println(x);
         }
     }
 
 
     private Main(int agentGroupNum, int agentNum, float beta, int gyoumuNum, int percentage, int syuyakudo) {
         Date d = new Date();
-        SimpleDateFormat d1 = new SimpleDateFormat("MM_dd_HH_mm_ss");
-        outputpath += d1.format(d);
+        SimpleDateFormat d1 = new SimpleDateFormat("MM_dd_HH_mm_ss.SSS");
+        outputpath = outputpath + d1.format(d) + "," + Setting.BETA + "," + Setting.SYUYAKUDO + "," + Setting.IS_SELECTION_SYSTEM;
 
 
         agentGroups = new AgentGroup[agentGroupNum];
@@ -144,7 +152,7 @@ public class Main {
             }
         }
         connectPickedUpAgents(agentsPickedUpWithBeta);
-        System.out.println("メンバーチェンジ！");
+//        System.out.println("メンバーチェンジ！");
     }
 }
 
