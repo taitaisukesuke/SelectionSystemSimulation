@@ -3,25 +3,178 @@
   <component name="ChangeListManager">
     <list default="true" id="860bdf45-6528-4051-9b71-a9a1b58834e8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/AgentGroup.class" afterPath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/AgentGroup.class" />
       <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/Main.class" afterPath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/Main.class" />
       <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/Setting.class" afterPath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/Setting.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_15_15_18_30.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_15_15_18_37.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_15_15_18_42.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Agent.java" afterPath="$PROJECT_DIR$/src/Agent.java" />
-      <change beforePath="$PROJECT_DIR$/src/Company.java" afterPath="$PROJECT_DIR$/src/Company.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_10.769,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_11.405,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_11.787,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_12.281,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_12.573,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_12.822,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_13.072,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_13.327,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_13.572,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_13.822,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_14.064,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_14.301,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_14.544,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_14.795,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_15.045,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_15.292,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_15.530,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_15.787,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_16.024,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_16.269,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_16.530,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_16.810,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_17.056,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_17.310,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_17.556,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_17.801,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_18.033,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_18.275,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_18.519,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_18.785,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_19.051,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_19.343,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_19.589,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_19.826,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_20.107,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_20.348,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_20.589,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_20.844,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_21.125,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_21.368,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_21.687,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_21.938,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_22.182,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_22.491,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_22.751,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_23.001,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_23.276,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_23.526,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_23.799,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_24.062,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_24.300,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_24.560,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_24.852,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_25.096,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_25.429,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_25.673,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_25.952,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_26.194,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_26.428,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_26.672,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_26.958,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_27.214,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_27.454,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_27.702,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_27.955,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_28.201,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_28.446,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_28.677,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_28.914,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_29.141,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_29.375,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_29.612,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_29.847,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_30.119,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_30.367,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_30.609,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_30.884,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_31.153,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_31.390,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_31.630,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_31.875,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_32.114,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_32.355,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_32.600,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_32.845,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_33.080,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_33.324,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_33.562,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_33.805,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_34.047,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_34.297,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_34.540,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_34.788,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_35.025,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_35.266,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_35.504,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_35.738,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_35.978,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_36.213,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_36.455,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_36.696,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_36.931,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_37.183,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_37.470,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_37.716,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_37.957,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_38.245,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_38.496,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_38.732,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_38.982,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_39.212,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_39.483,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_39.800,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_40.033,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_40.262,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_40.523,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_40.785,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_41.017,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_41.246,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_41.477,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_41.723,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_41.977,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_42.236,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_42.480,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_42.718,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_42.960,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_43.195,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_43.442,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_43.683,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_43.923,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_44.158,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_44.392,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_44.628,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_44.872,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_45.118,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_45.360,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_45.594,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_45.846,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_46.083,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_46.322,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_46.564,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_46.799,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_47.044,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_47.277,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_47.524,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_47.767,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_48.021,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_48.264,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_48.513,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_48.759,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_49.001,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_49.242,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_49.495,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_49.730,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_49.985,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_50.222,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_50.488,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_50.730,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_50.981,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_51.226,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_51.479,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_51.717,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_51.972,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_52.218,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSystemSimulation/output/01_16_01_43_52.471,0.2,4,true.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AgentGroup.java" afterPath="$PROJECT_DIR$/src/AgentGroup.java" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/Setting.java" afterPath="$PROJECT_DIR$/src/Setting.java" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/分散１.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/分散２.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/分散３.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/分散４.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/分散５.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/選抜制１.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/選抜制２.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/選抜制３.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/選抜制４.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/結果/10,12,0.3,120,5,500/選抜制５.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/結果/結果まとめ.xlsx" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +189,7 @@
       <file leaf-file-name="Agent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Agent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
+            <state relative-caret-position="1258">
               <caret line="75" column="5" lean-forward="false" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -62,28 +215,82 @@
       <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Reconnector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Reconnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2335">
-              <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Setting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Setting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Setting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Setting.java">
+      <file leaf-file-name="Weight.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Weight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AgentComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AgentComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AgentGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AgentGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Belief.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Belief.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -109,15 +316,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AgentGroup.java" />
-        <option value="$PROJECT_DIR$/src/Belief.java" />
         <option value="$PROJECT_DIR$/src/AgentComparator.java" />
         <option value="$PROJECT_DIR$/src/Reconnector.java" />
         <option value="$PROJECT_DIR$/src/Weight.java" />
         <option value="$PROJECT_DIR$/src/Agent.java" />
         <option value="$PROJECT_DIR$/src/Company.java" />
+        <option value="$PROJECT_DIR$/src/AgentGroup.java" />
         <option value="$PROJECT_DIR$/src/Setting.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Belief.java" />
       </list>
     </option>
   </component>
@@ -127,7 +334,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="34" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -147,10 +355,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,19 +365,11 @@
               <item name="SelectionSystemSimulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SelectionSystemSimulation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SelectionSystemSimulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectionSystemSimulation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelectionSystemSimulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,6 +383,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="Setting&#9;FILE&#9;file:///Users/taisuke.f/development/SelectionSystemSimulation/src/Setting.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -332,15 +532,26 @@
       <workItem from="1516004812840" duration="2976000" />
       <workItem from="1516014192667" duration="3247000" />
       <workItem from="1516026226848" duration="5217000" />
-      <workItem from="1516034568458" duration="198000" />
+      <workItem from="1516034568458" duration="4220000" />
+      <workItem from="1516078101828" duration="1279000" />
+      <workItem from="1516344956159" duration="1497000" />
+      <workItem from="1516508852686" duration="1652000" />
+      <workItem from="1516776357048" duration="726000" />
+      <workItem from="1516785552678" duration="2034000" />
+      <workItem from="1516847172839" duration="456000" />
+      <workItem from="1516855892950" duration="25000" />
+      <workItem from="1516856128676" duration="904000" />
+      <workItem from="1516858696043" duration="1018000" />
+      <workItem from="1517036646574" duration="118000" />
+      <workItem from="1517037241520" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39907000" />
+    <option name="totallyTimeSpent" value="53686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -350,12 +561,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45584047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32830524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3104435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26890308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -424,7 +635,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -464,7 +677,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,7 +711,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -536,7 +753,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -560,7 +779,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -623,7 +844,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -647,7 +870,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,7 +912,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -719,7 +946,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +996,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -791,7 +1022,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -831,26 +1064,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/output/01_15_13_59_23.csv" />
-    <entry file="file://$PROJECT_DIR$/src/AgentGroup.java">
+    <entry file="file://$PROJECT_DIR$/src/Weight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AgentComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Belief.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -863,17 +1080,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Weight.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Agent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
+        <state relative-caret-position="1258">
           <caret line="75" column="5" lean-forward="false" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -895,26 +1114,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AgentComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AgentGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Belief.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Setting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2335">
-          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -976,7 +1213,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

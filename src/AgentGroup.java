@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+
 public class AgentGroup {
     private ArrayList<Agent> agents = new ArrayList<>();
     private final int agentNum;
@@ -29,7 +30,7 @@ public class AgentGroup {
     }
 
     //他のクラスターとつながるエージェントの選抜
-    public ArrayList<Agent> pickUpAgentssWithBeta() {
+    public ArrayList<Agent> pickUpAgentsWithBeta() {
         int pickUpNum;
         ArrayList<Agent> pickUpAgents = new ArrayList<>();
         pickUpNum = (int) (this.agentNum * this.beta);

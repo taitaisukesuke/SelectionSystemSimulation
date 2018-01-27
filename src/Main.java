@@ -1,4 +1,3 @@
-import java.awt.font.TextHitInfo;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -72,7 +71,7 @@ public class Main {
     private void createNetwork() {
         ArrayList<Agent> pickedUpAgents = new ArrayList<>();
         for (int i = 0; i < agentGroups.length; i++) {
-            pickedUpAgents.addAll(agentGroups[i].pickUpAgentssWithBeta());
+            pickedUpAgents.addAll(agentGroups[i].pickUpAgentsWithBeta());
         }
         connectPickedUpAgents(pickedUpAgents);
     }
