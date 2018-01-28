@@ -20,19 +20,24 @@ public class ChartApplication extends Application {
         //creating the chart
         final LineChart<Number, Number> lineChart =
                 new LineChart<Number, Number>(xAxis, yAxis);
-
+        lineChart.setCreateSymbols(true);
         lineChart.setTitle("Stock Monitoring, 2010");
+
+
         //defining a series
         XYChart.Series series1 = new XYChart.Series();
         XYChart.Series series2 = new XYChart.Series();
         series1.setName("選抜");
+
         series2.setName("分散");
+
         //populating the series with data
 
 
         Scene scene = new Scene(lineChart, 800, 600);
         lineChart.getData().add(series1);
         lineChart.getData().add(series2);
+
 
         Task<Boolean> task1 = new Task<Boolean>() {
             @Override
@@ -42,7 +47,12 @@ public class ChartApplication extends Application {
                     @Override
                     public void onEvaluated(double average) {
                         Platform.runLater(() -> {
-                            lineChart.getData().get(0).getData().add(new XYChart.Data(lineChart.getData().get(0).getData().size(), average));
+                            XYChart.Data newData = new XYChart.Data(lineChart.getData().get(0).getData().size(), average);
+
+                            lineChart.getData().get(0).getData().add(newData);
+                            newData.getNode().setStyle("-fx-stroke: red;-fx-background-color:red;");
+                            lineChart.getData().get(0).getNode().setStyle("-fx-stroke: red;-fx-background-color:red;");
+
                             System.out.println("add");
                         });
                     }
@@ -63,7 +73,11 @@ public class ChartApplication extends Application {
                     @Override
                     public void onEvaluated(double average) {
                         Platform.runLater(() -> {
-                            lineChart.getData().get(1).getData().add(new XYChart.Data(lineChart.getData().get(1).getData().size(), average));
+                            XYChart.Data newData = new XYChart.Data(lineChart.getData().get(1).getData().size(), average);
+
+                            lineChart.getData().get(1).getData().add(newData);
+                            newData.getNode().setStyle("-fx-stroke: blue;-fx-background-color:blue;");
+                            lineChart.getData().get(1).getNode().setStyle("-fx-stroke: blue;-fx-background-color:blue;");
                             System.out.println("add");
                         });
                     }
@@ -81,8 +95,9 @@ public class ChartApplication extends Application {
         t2.setDaemon(true);
         t2.start();
 
-
+        scene.getStylesheets().add("./stylesheet.css");
         stage.setScene(scene);
+
         stage.show();
     }
 
