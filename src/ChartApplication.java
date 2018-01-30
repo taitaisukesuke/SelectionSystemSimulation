@@ -12,16 +12,16 @@ import javafx.util.Duration;
 public class ChartApplication extends Application {
     @Override
     public void start(Stage stage) {
-        stage.setTitle("Line Chart Sample");
+        stage.setTitle("Selection System Simulation");
         //defining the axes
         final NumberAxis xAxis = new NumberAxis();
         final NumberAxis yAxis = new NumberAxis();
-        xAxis.setLabel("Number of Month");
+        xAxis.setLabel("Times");
         //creating the chart
         final LineChart<Number, Number> lineChart =
                 new LineChart<Number, Number>(xAxis, yAxis);
         lineChart.setCreateSymbols(true);
-        lineChart.setTitle("Stock Monitoring, 2010");
+        lineChart.setTitle("Average of Score");
 
 
         //defining a series
@@ -34,7 +34,7 @@ public class ChartApplication extends Application {
         //populating the series with data
 
 
-        Scene scene = new Scene(lineChart, 800, 600);
+        Scene scene = new Scene(lineChart, 1000, 800);
         lineChart.getData().add(series1);
         lineChart.getData().add(series2);
 
